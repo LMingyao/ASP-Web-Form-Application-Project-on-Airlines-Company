@@ -1,0 +1,35 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Inter UI', sans-serif;
+    margin: 0;
+    /*background-color:aqua;*/
+    padding: 20px;
+}
+
+.lblLogin {
+    color: aqua;
+    background: white;
+    height: calc(100% - 40px);
+    top: 20px;
+    position: relative;
+    width: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 50px 40px 40px;
+}
+
+email {
+    margin-top:800px;
+    display: flex;
+    height: 320px;
+    margin: 0 auto;
+    width: 640px;
+}
+
+password{
+
+
+}
+

@@ -1,0 +1,108 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.flex-grow-1 {
+    justify-content: space-around;
+    background-color: #D1F1FF;
+    border-radius: 13px;
+}
+
+.nav-link {
+    color: #15BEFF !important;
+    font-weight: 500 !important;
+}
+
+.login {
+    font-weight: normal !important;
+}
+
+.header h2{
+    width: 150px;
+    padding-left: 30px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-container {
+    margin-top: 20px;
+    padding: 13px;
+    box-sizing: border-box;
+    border: 3px solid #D1F1FF;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.ticket-container .header{
+    border-bottom: 3px solid black;
+    width: 150px;
+}
+
+.ticketinfo{
+    margin-left: 40px;
+   height: 200px;
+}
+
+.ticketradiusbutton {
+    background-color: #D1F1FF;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+.ticketradiusbutton .radio{
+    padding-left: 10px;
+}
+
+.ticketradiusbutton .radiussection {
+    display: inline;
+    padding-left: 20px;
+}
+
+.ticketradiusbutton .radiussection label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ticketbutton{
+   text-align: right;
+   margin-right: 40px;
+}
+
+.ticketbutton button{
+    background-color: #D1F1FF;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    font-size:20px;
+    font-weight: bold;
+}
+
+ButtonSignUp.BackColor = System.Drawing.Color.White;
